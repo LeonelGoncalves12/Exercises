@@ -1,0 +1,22 @@
+.container{
+    width: 20vw;
+    height: 20vh;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+.calculator-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+.large-grid{
+    grid-column: auto / span 2;
+}
+
+.output{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    text-align: right;
+}

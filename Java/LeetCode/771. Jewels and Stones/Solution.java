@@ -16,11 +16,12 @@ Note:
 S and J will consist of letters and have length at most 50.
 The characters in J are distinct.
 */
-
-public int numJewelsInStones(String J, String S) {
-    int a;
-}
-
-public static void main(String args[]) {
-    System.out.println(numberOfSteps(0));
+public class Solution{
+    public int numJewelsInStones(String J, String S) {
+        return 1;
+    }
+    
+    public static void main(String args[]) {
+        System.out.println(numberOfSteps(0));
+    }
 }
