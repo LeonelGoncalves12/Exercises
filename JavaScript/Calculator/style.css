@@ -1,22 +1,43 @@
 .container{
     width: 20vw;
-    height: 20vh;
     margin: auto;
     margin-top: 15vh;
 }
 
 .calculator-grid {
+    height: 50vh;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+  }
+  .previous{
+      height: 50%;
+  }
+  .current{
+    height: 50%;
 }
 
+.grid-item{
+    background: rgb(171,213,235);
+    background: radial-gradient(circle, rgba(171,213,235,1) 0%, rgba(119,198,237,1) 100%);
+    border-color: ghostwhite;
+}
+.grid-item:hover {
+    background: rgb(221,236,244);
+    background: radial-gradient(circle, rgba(221,236,244,1) 0%, rgba(176,219,240,1) 100%);
+  }
 
 .large-grid{
     grid-column: auto / span 2;
 }
 
 .output{
+    height: 10vh;
     background-color: rgb(35, 35, 35);
     color: white;
     text-align: right;
+}
+html{
+    height: 100%;
+    background: rgb(63,251,220);
+    background: radial-gradient(circle, rgba(63,251,220,1) 0%, rgba(46,117,153,1) 92%); 
 }

@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Calculator</title>
         <link href="style.css" rel="stylesheet">
         <script src="script.js" defer></script>
@@ -10,32 +11,30 @@
     <body>
         <div class="container">
             <div class="output">
-                <div class="previous">
-                    1 + 1
-                </div>
-                <div class="current">
-240
-                </div>
+                <div class="previous" data-previous></div>
+                <div class="current" data-current>0</div>
             </div>
+            
             <div class="calculator-grid">
-                <button class="grid-item large-grid">AC</button>
-                <button class="grid-item">DEL</button>
-                <button class="grid-item">/</button>
-                <button class="grid-item">1</button>
-                <button class="grid-item">2</button>
-                <button class="grid-item">3</button>
-                <button class="grid-item">*</button>
-                <button class="grid-item">4</button>
-                <button class="grid-item">5</button>
-                <button class="grid-item">6</button>
-                <button class="grid-item">+</button>
-                <button class="grid-item">7</button>
-                <button class="grid-item">8</button>
-                <button class="grid-item">9</button>
-                <button class="grid-item">-</button>
-                <button class="grid-item">,</button>
-                <button class="grid-item">0</button>
-                <button class="grid-item large-grid">=</button>
+                
+                <button class="grid-item large-grid" data-action>AC</button>
+                <button class="grid-item" data-delete>DEL</button>
+                <button class="grid-item" data-operation>/</button>
+                <button class="grid-item" data-number>1</button>
+                <button class="grid-item" data-number>2</button>
+                <button class="grid-item" data-number>3</button>
+                <button class="grid-item" data-operation>*</button>
+                <button class="grid-item" data-number>4</button>
+                <button class="grid-item" data-number>5</button>
+                <button class="grid-item" data-number>6</button>
+                <button class="grid-item" data-operation>+</button>
+                <button class="grid-item" data-number>7</button>
+                <button class="grid-item" data-number>8</button>
+                <button class="grid-item" data-number>9</button>
+                <button class="grid-item" data-operation>-</button>
+                <button class="grid-item" data-number>.</button>
+                <button class="grid-item" data-number>0</button>
+                <button class="grid-item large-grid" data-equals>=</button>
             </div>
         </div>
     </body>
